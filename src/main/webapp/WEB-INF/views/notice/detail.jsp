@@ -45,13 +45,15 @@
 <body>
 
 	<div id="detail_screen">
-		<h1>${b.board_no}번 공지사항</h1>
-			<div>제목 : ${n.title}</div>
-			<div>작성자 : ${n.writer}</div>
-			<div>작성일 : ${n.created_at}</div>
-			<div>수정일 : ${n.modified_at}</div>
-			<div>${b.content}</div>
-		
+		<h1>${n.notice_no}번 공지사항</h1>
+		<c:if test="${notice.gubun == 1}">
+			<div>구분 : 긴급</div>
+		</c:if>
+		<c:if test="${notice.gubun == 2}">
+			<div>구분 : 일반</div>
+		</c:if>
+			<div>제목 : ${notice.title}</div>
+			<div>${n.content}</div>
 		<hr>
 		<div>
 			<input type="button" value="편집" onclick="fnEdit()">
