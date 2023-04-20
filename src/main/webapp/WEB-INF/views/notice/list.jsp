@@ -54,23 +54,23 @@
 			<tbody>
 				<tr>
 					<td>5</td>
-					<td><a href="">할인 이벤트</a></td>
+					<td><a href="${contextPath}/notice/detail.do">할인 이벤트</a></td>
 				</tr>
 				<tr>
 					<td>4</td>
-					<td><a href="">점검 공지</a></td>
+					<td><a href='${contextPath}/notice/detail.do'>점검 공지</a></td>
 				</tr>
 				<tr>
 					<td>3</td>
-					<td><a href="">작업 공지</a></td>
+					<td><a href='${contextPath}/notice/detail.do'>작업 공지</a></td>
 				</tr>
 				<tr>
 					<td>2</td>
-					<td><a href="">화면 개편</a></td>
+					<td><a href='${contextPath}/notice/detail.do'>화면 개편</a></td>
 				</tr>
 				<tr>
 					<td>1</td>
-					<td><a href="">오픈 이벤트</a></td>
+					<td><a href='${contextPath}/notice/detail.do'>오픈 이벤트</a></td>
 				</tr>
 			</tbody>
 		</table>
@@ -79,7 +79,7 @@
 	<hr>
 	
 	<div>
-		<a href="">새로운 공지 작성하러 가기</a>
+		<a href="${contextPath}/notice/write.do">새로운 공지 작성하러 가기</a>
 	</div>
 	
 </body>

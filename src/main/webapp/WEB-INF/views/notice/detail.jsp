@@ -65,7 +65,7 @@
 	<div id="edit_screen">
 		<div style="cursor: pointer;" onclick="fnBack()">← 뒤로 가기</div>
 		<h1>공지사항 편집하기</h1>
-		<form method="post" action="${contextPath}/board/modify.do">
+		<form method="post" action="${contextPath}/notice/modify.do">
 			<div>
 				<label for="title">제목</label>
 				<input type="text" id="title" name="title" value="${n.title}">

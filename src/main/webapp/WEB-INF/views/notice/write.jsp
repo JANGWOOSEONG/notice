@@ -19,6 +19,17 @@
 	<div>
 		<h1>공지 작성하기</h1>
 		<form>
+		
+			<div>
+			구분 : ${notice.gubun}
+				<select name=gubun>
+					<option>긴급</option>
+					<option selected>일반</option>
+				</select>
+			</div>
+			<div>제목 : ${notice.title}</div>
+			<div>내용 : ${notice.content}</div>
+			<div>${n.content}</div>
 			
 			<div>
 				<button>작성완료</button>
